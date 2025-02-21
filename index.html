@@ -3,62 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"></link>
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="left-portion">
         <div class="left-container"> 
-            <img src="images/odin-lined.png"></img>
+            <img src="images/odin-lined.png">
             <div class="title-font">ODIN</div>
         </div>
     </div>
     <div class="right-portion">
-    <div class="right-item">
-        <div class="bold">
-            This is not a real online Service! You know you need something like 
-            this in your life too help you realize your deepest dreams.
+        <div class="right-item">
+            <div class="bold">
+                This is not a real online Service! You know you need something like this in your life too help you realize your deepest dreams.
+            </div>
+            <div class="bold">Sign up <i>now</i> to get started.</div>
         </div>
-        <div class="bold">Sign up <i>now</i> to get started.</div>
-    </div>
-    <div class="bold right-item">
-        You <i>know</i> you want to
-    </div>
-    <div class="right-item form-container">
-        <div class="form-section">
-            <form class="form-item" action="example.com/path" method="post">
-                <label for="first_name">FIRST NAME:</label>
-                <input type="text" id="first_name" required>
-            </form>
-            <form class="form-item" action="example.com/path" method="post">
-                <label for="last_name">LAST NAME:</label>
-                <input type="text" id="last_name" required>
+        <div class="bold right-item">
+            You <i>know</i> you want to
+        </div>
+        <div class="right-item form-container">
+            <form id="form"action="example.com/path" method="post">
+                <div class="form-section">
+                    <div class="form-item">
+                        <label for="first_name">FIRST NAME:</label>
+                        <input type="text" id="first_name" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="last_name">LAST NAME:</label>
+                        <input type="text" id="last_name" required>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="form-item">
+                        <label for="email">EMAIL:</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="PHONE NUMBER">PHONE NUMBER</label>
+                        <input type="tel" id="PHONE NUMBER" required>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="form-item">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_password" required>
+                    </div>
+                </div>
             </form>
         </div>
-        <div class="form-section">
-            <form class="form-item" action="example.com/path" method="post">
-                <label for="email">EMAIL:</label>
-                <input type="text" id="email" required>
-            </form>
-            <form class="form-item" action="example.com/path" method="post">
-                <label for="PHONE NUMBER">PHONE NUMBER</label>
-                <input type="tel" id="PHONE NUMBER" required>
-            </form>
-        </div>
-        <div class="form-section">
-            <form class="form-item" action="example.com/path" method="post">
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password" required>
-            </form>
-            <form class="form-item" action="example.com/path" method="post">
-                <label for="confirm_password">CONFIRM PASSWORD</label>
-                <input type="password" id="confirm_password" required>
-            </form>
-        </div>
-    </div>
-    <button type="submit" class="right-item">Create Account</button>
-    <div class="right-item login-prompt">Already have a account? <a href="index.html">Log in</a></div>
+        <button form="form"type="submit" class="right-item">Create Account</button>
+
+        <div class="right-item login-prompt">Already have a account? <a href="index.html">Log in</a></div>
+
     </div>
 </body>
 </html>

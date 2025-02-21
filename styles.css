@@ -67,6 +67,12 @@ img{
     justify-content: center;
     align-items: center;
 }
+.form-section{
+    display: flex;
+    width: 60vw;
+    padding-left:40px;
+    padding-right:40px;
+}
 .form-item{
     display: flex;
     flex-direction: column;
@@ -75,11 +81,7 @@ img{
     margin-bottom:30px;
     width: 400px;
 }
-.form-section{
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
+
 button{
     background-color: green;
     color: white;
